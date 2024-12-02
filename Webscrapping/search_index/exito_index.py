@@ -1,0 +1,20 @@
+index = ["mercado/frutas-y-verduras", "mercado/aseo-del-hogar",
+         "mercado/pollo-carne-y-pescado", "mercado/despensa/granos-y-arroz",
+         "mercado/despensa/aceites-y-vinagres",  "mercado/despensa/enlatados-y-conservas" 
+         "mercado/despensa/cafe-chocolate-y-cremas-no-lacteas", "mercado/despensa/cereales-y-granolas",
+         "mercado/panaderia-y-reposteria/panaderia-y-pasteleria-empacada",
+         "mercado/despensa/pastas", "mercado/despensa/galletas",
+         "mercado/lacteos-huevos-y-refrigerados/leche", "mercado/lacteos-huevos-y-refrigerados/huevos",
+         "mercado/lacteos-huevos-y-refrigerados/arepas", "mercado/lacteos-huevos-y-refrigerados/carnes-frias-y-embutidos",
+         "mercado/lacteos-huevos-y-refrigerados/quesos-quesitos-y-cuajadas", "mercado/lacteos-huevos-y-refrigerados/yogurt-y-bebidas-lacteas",
+         "mercado/lacteos-huevos-y-refrigerados/mantequilla-y-margarina", "mercado/panaderia-y-reposteria",
+         "mercado/dulces-y-chocolateria", "mercado/pasabocas-y-snacks/papas-fritas-y-paquetes",
+         "mercado/bebidas/gaseosas-y-sodas", "mercado/pasabocas-y-snacks/nueces-pistachos-y-frutos-secos",
+         "mercado/bebidas/jugos", "mercado/bebidas/hidratantes-y-energizantes",
+         "mercado/bebidas/agua-y-te", "vinos-y-licores/whisky",
+         "vinos-y-licores/cerveza", "vinos-y-licores/vinos",
+         "vinos-y-licores/tequila", "cuidado-personal/salud-y-medicamentos",
+         "cuidado-personal/higiene-para-bebes-y-ninos", "cuidado-personal/higiene-intima",
+         "cuidado-personal/cuidado-oral", "cuidado-personal/cuidado-corporal",
+         "cuidado-personal/cuidado-capilar"
+         ]
