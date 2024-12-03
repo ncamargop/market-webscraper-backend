@@ -11,6 +11,11 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -82,11 +87,11 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'webscraper',  # Replace with your database name
-        'USER': 'root',      # Replace with your MySQL username
-        'PASSWORD': 'root',  # Replace with your MySQL password
-        'HOST': 'localhost',          # Usually localhost
-        'PORT': '3306',               # Default MySQL port
+        'NAME': os.getenv('MYSQLDATABASE'),  # Use the environment variable for the DB name
+        'USER': os.getenv('MYSQLUSER'),  # Use the environment variable for the DB user
+        'PASSWORD': os.getenv('MYSQLPASSWORD'),  # Use the environment variable for the DB password
+        'HOST': os.getenv('MYSQLHOST', 'localhost'),  # Default to localhost if not set
+        'PORT': os.getenv('MYSQLPORT', '3306'),  # Default to 3306 if not set
     }
 }
 
