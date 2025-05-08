@@ -1,4 +1,4 @@
-# Colombian Supermarket Price Tracker Backend
+# Compra Consciente CO: Colombian Supermarket Price Tracker Backend
 
 This is the backend project for the colombian supermarket price tracker app. It handles the logic for webscraping products from multiple stores in Colombia, processing the data and storing it in a MySQL database, as well as, providing endpoints for fetching the data with the frontend with you can find [here](https://github.com/ncamargop/market-webscraper-frontend.git).
 
